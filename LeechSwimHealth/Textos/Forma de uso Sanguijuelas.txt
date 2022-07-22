@@ -1,0 +1,26 @@
+
+En la carpeta proyecto existen dos archivos:
+	- ImageJ
+	- SpliterGUI
+
+Primero hay que dividir un video en fotos por segundo:
+
+	- Para dividir un video hay que darle doble click al archivo 
+	ejecutable SpliterGUI, en el cual al presionar el botón
+	"Seleccionar el video" arrojará un seleccionador de archivos
+	para poder ubicar y seleccionar el video a dividir.
+
+	Una vez ubicado y seleccionado el video, hay que agregar un tiempo de 
+	recorrido (representado en segundos) el cual puede ser entre 0.1 y 1,
+	donde cada este tiempo se generará la fotografia correspondiente.
+
+Una vez separado el video en fotogramas, es necesario escoger las fotos donde 
+no se muestren objetos raros como pueden ser (pinzas, manos, etc.) y donde se
+muestre la sanguijuela de forma correcta (no borrosa y no pegada en los sustratos).
+
+Para finalizar, una vez conociendo los fotogramas a utilizar, hay que abrir la capeta 
+ImageJ y abrir el archivo ejecutable ij o imageJ, el cual abrirá la interfaz de imageJ y en la
+opción File->Open ubicar los fotogramas a abrir.
+
+Una vez abiertos los fotogramas en imageJ, ubicar la sección Plugins->LeechSwimHealth para que empice
+a funcionar el plugin.
