@@ -1,0 +1,10 @@
+/.classpath
+/.project
+/.settings/
+/target/classes/
+/target/failsafe-reports/
+/target/generated-sources/
+/target/maven-archiver/
+/target/test-classes/
+/target/LeechSwimHealth_-0.1.0-sources.jar
+/target/

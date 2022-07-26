@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<artifactId>LeechSwimHealth_</artifactId>
+	<url>https://github.com/99joseluis/LeechSwimHealth/tree/main/LeechSwimHealth</url>
+	
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>31.1.0</version>
+		<relativePath/>
+	</parent>
+
+	<groupId>com.inrlgii.imagej</groupId>         
+	<version>0.1.0</version>
+
+	<name>LeechSwimHealth</name>                                                  
+	<description>What is the percentage of animals that recover after suffering an injury to their central nervous system? </description>                      
+	<inceptionYear>2022</inceptionYear>                   
+	<organization>
+		<name>INRLGII</name>           
+		<url>https://www.inr.gob.mx/</url> 
+	</organization>
+	<licenses>
+        <license>
+            <name>CC0</name>
+            <url>http://creativecommons.org/publicdomain/zero/1.0/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+	<developers>
+		<developer>
+			<id>99joseluis</id>                                          
+			<name>José L. García</name>                        
+			<roles>
+				<role>founder</role>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Javier Vargas Sánches</name>  <!--  -->
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/tag/imagej</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:https://github.com/99joseluis/LeechSwimHealth</connection>
+		<developerConnection>scm:git:git@github.com:99joseluis/LeechSwimHealth</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/99joseluis/LeechSwimHealth</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/99joseluis/LeechSwimHealth/issues</url>	
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<package-name>com.inrlgii.imagej</package-name>                 
+		<main-class>com.inrlgii.imagej.Leech_Main</main-class>       
+		<license.licenseName>cc0</license.licenseName>
+		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners> 
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+</project>
